@@ -567,13 +567,7 @@ Scene_Gameover.prototype.retryCommand = function() {
 };
 
 Scene_Gameover.prototype.loadCommand = function() {
-	if (DataManager.loadGame(DataManager.latestSavefileId())) { 
-		this._commandWindow.close();
-		this.fadeOutAll();
-		$gamePlayer.reserveTransfer($gameMap.mapId(), $gamePlayer.x, $gamePlayer.y); $gamePlayer.requestMapReload();
-		AudioManager.stopMe();
-		SceneManager.goto(Scene_Map); 
-	}
+	SceneManager.push(Scene_Load);
 };
 
 Scene_Gameover.prototype.cancelLoad = function() {
