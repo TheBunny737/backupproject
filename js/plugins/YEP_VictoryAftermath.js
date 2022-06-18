@@ -347,9 +347,10 @@ BattleManager.processNormalVictory = function() {
 Yanfly.VA.BattleManager_playVictoryMe = BattleManager.playVictoryMe;
 BattleManager.playVictoryMe = function() {
     Yanfly.VA.BattleManager_playVictoryMe.call(this);
+    this.playVictoryBGM();
 };
 
-/*BattleManager.playVictoryBGM = function() {
+BattleManager.playVictoryBGM = function() {
     var victoryBgm = {
       name:   Yanfly.Param.VABgmName,
       volume: Yanfly.Param.VABgmVol,
@@ -358,7 +359,6 @@ BattleManager.playVictoryMe = function() {
     };
     AudioManager.playBgm(victoryBgm);
 };
-*/
 
 BattleManager.startVictoryPhase = function() {
     this._victoryCheerWait = 0;
@@ -384,7 +384,6 @@ BattleManager.prepareVictoryInfo = function() {
 BattleManager.processVictoryFinish = function() {
     $gameParty.clearVictoryData();
     this.endBattle(0);
-    AudioManager.fadeOutBgm(1);
     this.replayBgmAndBgs();
     this._victoryPhase = false;
 };

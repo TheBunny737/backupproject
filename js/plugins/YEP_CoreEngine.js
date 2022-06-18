@@ -2556,7 +2556,7 @@ Window_ItemList.prototype.drawItemNumber = function(item, x, y, width) {
     if (!this.needsNumber()) return;
     var numItems = Yanfly.Util.toGroup($gameParty.numItems(item));
     this.contents.fontSize = Yanfly.Param.ItemQuantitySize;
-    this.drawText('' + numItems, x, y, width, 'right');
+    this.drawText('\u00d7' + numItems, x, y, width, 'right');
     this.resetFontSettings();
 };
 

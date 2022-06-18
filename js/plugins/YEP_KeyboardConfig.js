@@ -482,7 +482,7 @@ ConfigManager.wasdMap = {
   9: 'tab', 13: 'ok', 16: 'shift', 17: 'control', 18: 'control', 27: 'escape',
   32: 'ok', 33: 'pageup', 34: 'pagedown', 37: 'left', 38: 'up', 39: 'right',
   40: 'down', 87: 'up', 65: 'left', 83: 'down', 68: 'right', 74: 'ok',
-  75: 'escape', 77: 'menu', 219: 'pageup',  221: 'pagedown', 45: 'escape',
+  75: 'escape', 77: 'menu', /*219: 'pageup',  221: 'pagedown',*/ 45: 'escape',
   46: 'ok', 35: 'escape', 36: 'menu', 96: 'escape', 98: 'down', 100: 'left',
   102: 'right', 104: 'up', 120: 'debug' 
 };

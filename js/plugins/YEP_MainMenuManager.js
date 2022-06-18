@@ -1989,34 +1989,34 @@ Yanfly.MMM.version = 1.03
  * @parent ---Menu 45---
  * @desc This is the name for the menu command. This is an eval. To
  * make it a string, use 'quotes' around the name.
- * @default 'Common Event 1'
+ * @default
  *
  * @param Menu 45 Symbol
  * @parent ---Menu 45---
  * @desc This is the symbol for the menu command. This needs to be
  * unique per menu command.
- * @default common event
+ * @default
  *
  * @param Menu 45 Show
  * @parent ---Menu 45---
  * @desc This is the eval condition for this menu command to appear.
- * @default false
+ * @default
  *
  * @param Menu 45 Enabled
  * @parent ---Menu 45---
  * @desc Is this menu command enabled? This is an eval.
- * @default true
+ * @default
  *
  * @param Menu 45 Ext
  * @parent ---Menu 45---
  * @desc This is the menu command's extension. This is an eval.
- * @default 1
+ * @default
  *
  * @param Menu 45 Main Bind
  * @parent ---Menu 45---
  * @desc This is the function activated by this menu command.
  * This is an eval.
- * @default this.callCommonEvent.bind(this)
+ * @default
  *
  * @param Menu 45 Actor Bind
  * @parent ---Menu 45---

@@ -1,8 +1,0 @@
-[
-null,
-{"id":1,"battlerName":"Actor01","characterIndex":0,"characterName":"Main","classId":1,"equips":[0,1,0],"faceIndex":0,"faceName":"Actor01a","traits":[],"initialLevel":1,"maxLevel":25,"name":"เติ้ล","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Actor02","characterIndex":1,"characterName":"Main","classId":2,"equips":[2,0,0],"faceIndex":0,"faceName":"Actor02","traits":[],"initialLevel":1,"maxLevel":25,"name":"บอส","nickname":"","note":"","profile":""},
-{"id":3,"battlerName":"Actor03","characterIndex":2,"characterName":"Main","classId":3,"equips":[4,0,0],"faceIndex":0,"faceName":"Actor03","traits":[],"initialLevel":1,"maxLevel":25,"name":"เคน","nickname":"","note":"","profile":""},
-{"id":4,"battlerName":"Actor04","characterIndex":3,"characterName":"Main","classId":4,"equips":[4,0,0],"faceIndex":0,"faceName":"Actor04","traits":[],"initialLevel":1,"maxLevel":25,"name":"ชาย","nickname":"","note":"","profile":""},
-{"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"???","nickname":"","note":"// ??? nameplate","profile":""}
-]

@@ -61,7 +61,7 @@ ConfigManager.applyData = function(config) {
     if(PluginManager.parameters('MalMasterVolume')['MasterMode'] == 1){
         this.addCommand("Volume", 'masterVolume');
     } else {
-    this.addCommand("Master Volume", 'masterVolume');
+    this.addCommand("เสียงทั้งหมด", 'masterVolume');
     this.addCommand(TextManager.bgmVolume, 'bgmVolume');
     this.addCommand(TextManager.bgsVolume, 'bgsVolume');
     /*this.addCommand(TextManager.meVolume, 'meVolume');
